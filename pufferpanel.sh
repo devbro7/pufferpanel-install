@@ -58,7 +58,7 @@ elif [ "$option" -eq 2 ]; then
     curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | bash
     apt update && apt install pufferpanel -y
     curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py
-    chmod -R 777 /bin/systemctl
+    chmod +x /bin/systemctl
     clear
     echo "PufferPanel installation completed!"
     echo "Enter any available open port for PufferPanel (e.g., 8080):"
