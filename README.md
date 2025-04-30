@@ -22,7 +22,7 @@ Ensure your VPS meets the following requirements:
 To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel
 
 ```sh
- bash <(curl -s https://raw.githubusercontent.com/DevX-77/pufferpanel-installer/refs/heads/main/pufferpanel.sh)
+ bash <(curl -s https://raw.githubusercontent.com/devbro7/pufferpanel-install/refs/heads/main/pufferpanel.sh)
 ```
 
 This script will take care of downloading, installing, and configuring both PufferPanel and Ngrok for your Linux x86 VPS.
